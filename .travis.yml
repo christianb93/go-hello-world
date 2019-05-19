@@ -1,0 +1,11 @@
+language: go
+dist: xenial
+
+go:
+  - 1.10.8
+
+script:
+  - go build
+  - go test -v -count=1
+
+
