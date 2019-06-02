@@ -5,6 +5,7 @@ go:
   - 1.10.8
 
 script:
+  - env
   - go build
   - go test -v -count=1
 
